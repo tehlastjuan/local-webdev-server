@@ -1,0 +1,23 @@
+{
+  "name": "local-webdev-server",
+  "version": "0.0.1",
+  "description": "Tiny hot-reloading web server",
+  "main": "index.js",
+  "repository": "https://github.com/tehlastjuan/local-webdev-server.git",
+  "author": "Juan Rodrigo <juanrodr100@student.kau.se>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=11"
+  },
+  "devDependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "chokidar": "^3.6.0"
+  },
+  "packageManager": "yarn@1.22.22"
+}

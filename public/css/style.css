@@ -1,0 +1,27 @@
+/*
+ * browser reset
+ */
+@import url("./reset.css");
+
+/*
+ * add your CSS styles here
+ */
+:root {
+  background-color: #333333;
+  font-family: monospace;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+h1 {
+  padding: 1rem;
+  color: #cccccc;
+  animation: 1s steps(3, jump-none) 0s infinite alternate blink;
+}
